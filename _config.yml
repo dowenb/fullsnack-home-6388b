@@ -1,13 +1,13 @@
 minimal_mistakes_skin: default
-locale: en-US
-title: Site Title
+locale: en-UK
+title: Full Snack Tester
 title_separator: '-'
 subtitle: null
 name: Your Name
-description: An amazing website.
+description: Homepage for Ben Dowen The Full Snack Tester
 url: ''
 baseurl: ''
-repository: null
+repository: dowenb/fullsnack-home-6388b
 teaser: null
 logo: null
 masthead_title: null
@@ -49,7 +49,7 @@ bing_site_verification: null
 yandex_site_verification: null
 naver_site_verification: null
 twitter:
-  username: null
+  username: FullSnackTester
 facebook:
   username: null
   app_id: null
@@ -65,11 +65,11 @@ analytics:
     tracking_id: null
     anonymize_ip: null
 author:
-  name: Your Name
+  name: Ben Dowen
   avatar: null
-  bio: I am an **amazing** person.
-  location: Somewhere
-  email: null
+  bio: I write test code and celebrate the software testing community, every day.
+  location: England, UK
+  email: ben@dowen.me.uk
   links:
     - label: Email
       icon: fas fa-fw fa-envelope-square
@@ -77,26 +77,14 @@ author:
       icon: fas fa-fw fa-link
     - label: Twitter
       icon: fab fa-fw fa-twitter-square
-    - label: Facebook
-      icon: fab fa-fw fa-facebook-square
     - label: GitHub
       icon: fab fa-fw fa-github
-    - label: Instagram
-      icon: fab fa-fw fa-instagram
 footer:
   links:
     - label: Twitter
       icon: fab fa-fw fa-twitter-square
-    - label: Facebook
-      icon: fab fa-fw fa-facebook-square
     - label: GitHub
       icon: fab fa-fw fa-github
-    - label: GitLab
-      icon: fab fa-fw fa-gitlab
-    - label: Bitbucket
-      icon: fab fa-fw fa-bitbucket
-    - label: Instagram
-      icon: fab fa-fw fa-instagram
 include:
   - .htaccess
   - _pages
