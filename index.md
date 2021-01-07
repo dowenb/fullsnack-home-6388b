@@ -1,7 +1,7 @@
 ---
 title: "Home of The Full Snack Tester"
 layout: splash
-permalink: /home
+permalink: /
 date: 2021-01-06T23:00:00-00:00
 header:
   overlay_color: "#000"
