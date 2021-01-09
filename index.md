@@ -11,7 +11,7 @@ header:
 excerpt: "Projects, Portfolio, Blogs and Social"
 intro: 
   - excerpt: "Bringing together my online presence."
-feature_row:
+feature_projects:
   - image_path: assets/images/screenshot-testeroftheday.png
     alt: "Site Screenshot for Tester of The Day"
     title: "Tester of The Day"
@@ -33,8 +33,56 @@ feature_row:
     url: "https://gif-weather-ui.herokuapp.com"
     btn_label: "Visit"
     btn_class: "btn--primary"
+feature_blogs:
+  - image_path: assets/images/screenshot-dowen.png
+    alt: "Site Screenshot for Ben Dowen personal blog"
+    title: "Ben Dowen"
+    excerpt: "**BLOG**: My personal software testing blog"
+    url: "https://www.dowen.me.uk"
+    btn_label: "Visit"
+    btn_class: "btn--primary"
+  - image_path: assets/images/screenshot-journal.png 
+    alt: "Site screenshot for Learning Journal"
+    title: "Learning journal"
+    excerpt: "**BLOG**: Follow my learning journey"
+    url: "https://journal.fullsnacktester.com"
+    btn_label: "Visit"
+    btn_class: "btn--primary"
+  - image_path: assets/images/screenshot-devto.png
+    alt: "Screenshot of my posts on the Dev Community"
+    title: "Dev Community"
+    excerpt: "**BLOG**: My posts on the Dev Community"
+    url: "https://dev.to/dowenb"
+    btn_label: "Visit"
+    btn_class: "btn--primary"
+feature_social:
+  - image_path: assets/images/twitter.png
+    alt: "Full Snack Tester on Twitter"
+    title: "Twitter"
+    excerpt: "**SOCIAL**: Follow @FullSnackTester on Twitter"
+    url: "https://twitter.com/FullSnackTester"
+    btn_label: "Visit"
+    btn_class: "btn--primary"
+  - image_path: assets/images/linkedin.png 
+    alt: "Ben Dowen on LinkedIn"
+    title: "LinkedIn"
+    excerpt: "**SOCIAL**: Connect with Ben Dowen on LinkedIn"
+    url: "https://linkedin.com/in/dowenb"
+    btn_label: "Visit"
+    btn_class: "btn--primary"
+  - image_path: assets/images/club.png
+    alt: "Ben on The Club"
+    title: "MoT Club"
+    excerpt: "**COMMUNITY**: Join me on the Ministry of Testing club"
+    url: "https://club.ministryoftesting.com/u/bencf1/summary"
+    btn_label: "Visit"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
+{% include feature_row id="feature_projects" %}
+
+{% include feature_row id="feature_blogs" %}
+
+{% include feature_row id="feature_social" %}
