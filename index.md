@@ -74,7 +74,7 @@ feature_social:
     alt: "Ben on The Club"
     title: "MoT Club"
     excerpt: "**COMMUNITY**: Join me on the Ministry of Testing club"
-    url: "https://club.ministryoftesting.com/u/bencf1/summary"
+    url: "https://club.ministryoftesting.com/u/fullsnacktester/summary"
     btn_label: "Visit"
     btn_class: "btn--primary"
 ---
